@@ -4,7 +4,7 @@ import org.bukkit.Bukkit;
 import org.bukkit.Location;
 import org.bukkit.World;
 
-import org.bukkit.craftbukkit.entity.CraftLivingEntity;
+import org.bukkit.craftbukkit.v1_4_5.entity.CraftLivingEntity;
 import org.bukkit.entity.EntityType;
 import org.bukkit.entity.LivingEntity;
 import org.bukkit.entity.Player;
@@ -18,7 +18,7 @@ import net.aufdemrand.denizen.triggers.AbstractTrigger;
 import net.citizensnpcs.api.ai.Navigator;
 import net.citizensnpcs.api.npc.NPC;
 import net.citizensnpcs.trait.LookClose;
-import net.minecraft.server.EntityLiving;
+import net.minecraft.server.v1_4_5.EntityLiving;
 
 public class DenizenNPC {
 

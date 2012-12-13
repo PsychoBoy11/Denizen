@@ -1,11 +1,11 @@
 package net.aufdemrand.denizen.commands.core;
 
-import org.bukkit.craftbukkit.entity.CraftEntity;
+import org.bukkit.craftbukkit.v1_4_5.entity.CraftEntity;
 
 import net.aufdemrand.denizen.commands.AbstractCommand;
 import net.aufdemrand.denizen.scripts.ScriptEntry;
 import net.citizensnpcs.command.exception.CommandException;
-import net.minecraft.server.Packet18ArmAnimation;
+import net.minecraft.server.v1_4_5.Packet18ArmAnimation;
 
 public class FeedCommand extends AbstractCommand {
 
