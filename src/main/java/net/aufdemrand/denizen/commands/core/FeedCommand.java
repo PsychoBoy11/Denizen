@@ -46,8 +46,8 @@ public class FeedCommand extends AbstractCommand {
 
 
 		theEntry.getPlayer().setFoodLevel(theEntry.getPlayer().getFoodLevel() + amount);
-		net.citizensnpcs.util.Util.sendPacketNearby(theEntry.getDenizen().getLocation(), 
-				new Packet18ArmAnimation(((CraftEntity)theEntry.getDenizen().getEntity()).getHandle(),6) , 64); 
+		//net.citizensnpcs.util.Util.sendPacketNearby(theEntry.getDenizen().getLocation(), 
+		//		new Packet18ArmAnimation(((CraftEntity)theEntry.getDenizen().getEntity()).getHandle(),6) , 64); 
 		
 		return true;
 	}
