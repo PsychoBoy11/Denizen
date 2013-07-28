@@ -1266,7 +1266,7 @@ public class WorldScriptHelper implements Listener {
 
         String determination = doEvents(Arrays.asList
         		("player logs in"),
-        		null, event.getPlayer(), context).toUpperCase();
+        		null, event.getPlayer(), context);
 
         // Handle determine kicked
         if (determination.toUpperCase().startsWith("KICKED"))
@@ -1305,7 +1305,7 @@ public class WorldScriptHelper implements Listener {
         String determination = doEvents(Arrays.asList
         		("player quits",
         		 "player quit"),
-        		null, event.getPlayer(), context).toUpperCase();
+        		null, event.getPlayer(), context);
 
         // Handle determine message
         if (determination.toUpperCase().startsWith("MESSAGE"))
